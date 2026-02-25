@@ -9,7 +9,7 @@ An automated framework to **evaluate AI/LLM responses** for accuracy, hallucinat
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────────────┐
@@ -45,7 +45,7 @@ An automated framework to **evaluate AI/LLM responses** for accuracy, hallucinat
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 AI-Quality-Assurance-Framework/
@@ -105,7 +105,7 @@ AI-Quality-Assurance-Framework/
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Clone & Install
 
@@ -164,7 +164,7 @@ python scripts/run_regression.py
 
 ---
 
-## 🐳 Docker
+## Docker
 
 ```bash
 # Build the image
@@ -183,7 +183,7 @@ docker compose --profile test up test
 
 ---
 
-## 📊 Evaluation Metrics
+## Evaluation Metrics
 
 | Dimension | Metrics | Weight |
 |-----------|---------|--------|
@@ -201,7 +201,7 @@ Overall = (Accuracy × 0.35) + ((100 - HallucinationRate) × 0.30) +
 
 ---
 
-## 📈 Generated Reports
+## Generated Reports
 
 After running an evaluation, reports are saved to the `reports/` directory:
 
@@ -218,7 +218,7 @@ After running an evaluation, reports are saved to the `reports/` directory:
 
 ---
 
-## ⚙️ Configuration
+## Configuration
 
 Edit `config.yaml` to customize:
 
@@ -241,7 +241,7 @@ regression:
 
 ---
 
-## 🔄 CI/CD Pipeline
+## CI/CD Pipeline
 
 ### Automatic Testing (`ci.yml`)
 - **Trigger**: Push/PR to `main`
@@ -259,23 +259,14 @@ Add your API keys to GitHub repository secrets:
 
 ---
 
-## 🤝 Contributing
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
----
-
-## 📄 License
+## License
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
 
 ---
 
-## 🗺️ Roadmap
+## Roadmap
 
 - [ ] Multi-model comparison dashboards
 - [ ] Fine-tuned dataset evaluation
