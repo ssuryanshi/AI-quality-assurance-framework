@@ -266,11 +266,3 @@ This project is licensed under the MIT License. See [LICENSE](LICENSE) for detai
 
 ---
 
-## Roadmap
-
-- [ ] Multi-model comparison dashboards
-- [ ] Fine-tuned dataset evaluation
-- [ ] Human feedback loop integration
-- [ ] Slack/email alerts for regressions
-- [ ] Web-based dashboard UI
-- [ ] Custom metric plugin system
