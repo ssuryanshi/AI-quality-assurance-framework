@@ -1,4 +1,4 @@
-# 🔍 AI Model QA & Hallucination Detection Framework
+# AI Model QA & Hallucination Detection Framework
 
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](https://www.python.org/downloads/)
 [![Pytest](https://img.shields.io/badge/tests-pytest-green.svg)](https://pytest.org)
