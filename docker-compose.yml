@@ -1,0 +1,28 @@
+# AI Model QA & Hallucination Detection Framework
+# Docker Compose configuration
+
+version: "3.8"
+
+services:
+  evaluator:
+    build: .
+    container_name: ai-qa-evaluator
+    env_file:
+      - .env
+    volumes:
+      # Mount reports directory for output persistence
+      - ./reports:/app/reports
+      # Mount baselines for regression tracking
+      - ./baselines:/app/baselines
+      # Mount datasets (in case of custom datasets)
+      - ./datasets:/app/datasets
+    command: [ "--config", "config.yaml" ]
+
+  # Run tests
+  test:
+    build: .
+    container_name: ai-qa-tests
+    entrypoint: [ "python", "-m", "pytest" ]
+    command: [ "tests/", "-v", "--tb=short" ]
+    profiles:
+      - test

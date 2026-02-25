@@ -1,0 +1,210 @@
+{
+    "metadata": {
+        "name": "Consistency Prompts Dataset",
+        "version": "1.0.0",
+        "description": "Sets of semantically equivalent prompts to test response consistency",
+        "total_sets": 20
+    },
+    "prompt_sets": [
+        {
+            "id": "CP001",
+            "topic": "Speed of light",
+            "expected_answer": "299,792,458 meters per second",
+            "variants": [
+                "What is the speed of light?",
+                "How fast does light travel in a vacuum?",
+                "Can you tell me the speed of light in meters per second?"
+            ]
+        },
+        {
+            "id": "CP002",
+            "topic": "Python creator",
+            "expected_answer": "Guido van Rossum",
+            "variants": [
+                "Who created the Python programming language?",
+                "Who is the original author of Python?",
+                "Which person invented the Python language?"
+            ]
+        },
+        {
+            "id": "CP003",
+            "topic": "Earth distance from Sun",
+            "expected_answer": "Approximately 93 million miles or 150 million kilometers",
+            "variants": [
+                "How far is the Earth from the Sun?",
+                "What is the distance between Earth and the Sun?",
+                "How many miles separate our planet from the Sun?"
+            ]
+        },
+        {
+            "id": "CP004",
+            "topic": "Photosynthesis definition",
+            "expected_answer": "The process by which green plants use sunlight to synthesize food from carbon dioxide and water",
+            "variants": [
+                "What is photosynthesis?",
+                "Explain the process of photosynthesis.",
+                "How do plants convert sunlight into energy?"
+            ]
+        },
+        {
+            "id": "CP005",
+            "topic": "HTTP status 404",
+            "expected_answer": "Not Found - the server cannot find the requested resource",
+            "variants": [
+                "What does HTTP status code 404 mean?",
+                "Explain what a 404 error is.",
+                "When a web browser shows 404, what does that indicate?"
+            ]
+        },
+        {
+            "id": "CP006",
+            "topic": "Largest organ in human body",
+            "expected_answer": "The skin",
+            "variants": [
+                "What is the largest organ in the human body?",
+                "Which organ covers the most area in a human?",
+                "Name the biggest organ humans have."
+            ]
+        },
+        {
+            "id": "CP007",
+            "topic": "SQL purpose",
+            "expected_answer": "SQL (Structured Query Language) is used to manage and manipulate relational databases",
+            "variants": [
+                "What is SQL used for?",
+                "Explain the purpose of SQL in programming.",
+                "Why do developers use SQL?"
+            ]
+        },
+        {
+            "id": "CP008",
+            "topic": "Boiling point of water",
+            "expected_answer": "100 degrees Celsius or 212 degrees Fahrenheit at standard atmospheric pressure",
+            "variants": [
+                "At what temperature does water boil?",
+                "What is the boiling point of water in Celsius?",
+                "When does water start to boil at sea level?"
+            ]
+        },
+        {
+            "id": "CP009",
+            "topic": "Machine learning definition",
+            "expected_answer": "A subset of artificial intelligence that enables systems to learn and improve from experience without being explicitly programmed",
+            "variants": [
+                "What is machine learning?",
+                "How would you define machine learning in simple terms?",
+                "Explain what ML means in the context of AI."
+            ]
+        },
+        {
+            "id": "CP010",
+            "topic": "Capital of Brazil",
+            "expected_answer": "Brasilia",
+            "variants": [
+                "What is the capital of Brazil?",
+                "Which city serves as Brazil's capital?",
+                "Name the capital city of Brazil."
+            ]
+        },
+        {
+            "id": "CP011",
+            "topic": "Git version control",
+            "expected_answer": "Git is a distributed version control system for tracking changes in source code during software development",
+            "variants": [
+                "What is Git?",
+                "Explain what Git is used for.",
+                "How does Git help in software development?"
+            ]
+        },
+        {
+            "id": "CP012",
+            "topic": "Newton's second law",
+            "expected_answer": "Force equals mass times acceleration (F = ma)",
+            "variants": [
+                "What is Newton's second law of motion?",
+                "State Newton's second law.",
+                "How is force related to mass and acceleration?"
+            ]
+        },
+        {
+            "id": "CP013",
+            "topic": "DNA full form",
+            "expected_answer": "Deoxyribonucleic Acid",
+            "variants": [
+                "What does DNA stand for?",
+                "What is the full form of DNA?",
+                "Expand the abbreviation DNA."
+            ]
+        },
+        {
+            "id": "CP014",
+            "topic": "Internet protocol",
+            "expected_answer": "TCP/IP (Transmission Control Protocol/Internet Protocol) is the foundational communication protocol of the Internet",
+            "variants": [
+                "What protocol does the Internet use?",
+                "Explain TCP/IP.",
+                "What is the main communication protocol of the Internet?"
+            ]
+        },
+        {
+            "id": "CP015",
+            "topic": "Gravity on Earth",
+            "expected_answer": "Approximately 9.8 meters per second squared",
+            "variants": [
+                "What is the acceleration due to gravity on Earth?",
+                "How strong is Earth's gravitational pull?",
+                "What is the value of g on Earth's surface?"
+            ]
+        },
+        {
+            "id": "CP016",
+            "topic": "Amazon rainforest location",
+            "expected_answer": "South America, primarily in Brazil",
+            "variants": [
+                "Where is the Amazon rainforest located?",
+                "In which continent is the Amazon rainforest?",
+                "Which country contains most of the Amazon rainforest?"
+            ]
+        },
+        {
+            "id": "CP017",
+            "topic": "Binary system",
+            "expected_answer": "A number system that uses only two digits: 0 and 1",
+            "variants": [
+                "What is the binary number system?",
+                "Explain binary in computing.",
+                "How does the binary system work?"
+            ]
+        },
+        {
+            "id": "CP018",
+            "topic": "Oxygen percentage in air",
+            "expected_answer": "Approximately 21 percent",
+            "variants": [
+                "What percentage of Earth's atmosphere is oxygen?",
+                "How much oxygen is in the air we breathe?",
+                "What fraction of air is made up of oxygen?"
+            ]
+        },
+        {
+            "id": "CP019",
+            "topic": "REST API",
+            "expected_answer": "Representational State Transfer - an architectural style for designing networked applications using HTTP methods",
+            "variants": [
+                "What is a REST API?",
+                "Explain RESTful web services.",
+                "What does REST stand for in web development?"
+            ]
+        },
+        {
+            "id": "CP020",
+            "topic": "Human chromosomes",
+            "expected_answer": "23 pairs, or 46 total chromosomes",
+            "variants": [
+                "How many chromosomes do humans have?",
+                "What is the number of chromosome pairs in human cells?",
+                "How many chromosomes are found in a typical human cell?"
+            ]
+        }
+    ]
+}

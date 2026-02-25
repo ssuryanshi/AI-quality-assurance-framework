@@ -1,0 +1,411 @@
+{
+  "metadata": {
+    "name": "Factual QA Dataset",
+    "version": "1.0.0",
+    "description": "Factual question-answer pairs for evaluating LLM accuracy",
+    "total_questions": 50,
+    "categories": ["science", "history", "geography", "technology", "general_knowledge"]
+  },
+  "questions": [
+    {
+      "id": "FQ001",
+      "question": "What is the chemical symbol for water?",
+      "expected_answer": "H2O",
+      "category": "science",
+      "difficulty": "easy",
+      "context": "Water is a chemical compound consisting of two hydrogen atoms and one oxygen atom."
+    },
+    {
+      "id": "FQ002",
+      "question": "Who wrote the theory of relativity?",
+      "expected_answer": "Albert Einstein",
+      "category": "science",
+      "difficulty": "easy",
+      "context": "The theory of relativity was published in two parts: special relativity in 1905 and general relativity in 1915."
+    },
+    {
+      "id": "FQ003",
+      "question": "What is the capital of France?",
+      "expected_answer": "Paris",
+      "category": "geography",
+      "difficulty": "easy",
+      "context": "France is a country in Western Europe. Its capital city is the administrative, economic, and cultural center of the nation."
+    },
+    {
+      "id": "FQ004",
+      "question": "In what year did World War II end?",
+      "expected_answer": "1945",
+      "category": "history",
+      "difficulty": "easy",
+      "context": "World War II was a global conflict that lasted from 1939 to 1945, involving most of the world's nations."
+    },
+    {
+      "id": "FQ005",
+      "question": "What programming language was created by Guido van Rossum?",
+      "expected_answer": "Python",
+      "category": "technology",
+      "difficulty": "easy",
+      "context": "Guido van Rossum began working on this programming language in the late 1980s and released it in 1991."
+    },
+    {
+      "id": "FQ006",
+      "question": "What is the speed of light in a vacuum in meters per second?",
+      "expected_answer": "299,792,458 meters per second",
+      "category": "science",
+      "difficulty": "medium",
+      "context": "The speed of light is a fundamental constant in physics, denoted as 'c'."
+    },
+    {
+      "id": "FQ007",
+      "question": "What is the largest planet in our solar system?",
+      "expected_answer": "Jupiter",
+      "category": "science",
+      "difficulty": "easy",
+      "context": "Our solar system has eight planets orbiting the Sun."
+    },
+    {
+      "id": "FQ008",
+      "question": "Who painted the Mona Lisa?",
+      "expected_answer": "Leonardo da Vinci",
+      "category": "general_knowledge",
+      "difficulty": "easy",
+      "context": "The Mona Lisa is one of the most famous paintings in the world, housed in the Louvre Museum in Paris."
+    },
+    {
+      "id": "FQ009",
+      "question": "What is the boiling point of water at standard atmospheric pressure in Celsius?",
+      "expected_answer": "100 degrees Celsius",
+      "category": "science",
+      "difficulty": "easy",
+      "context": "At standard atmospheric pressure (1 atm), water transitions from liquid to gas."
+    },
+    {
+      "id": "FQ010",
+      "question": "What does CPU stand for?",
+      "expected_answer": "Central Processing Unit",
+      "category": "technology",
+      "difficulty": "easy",
+      "context": "The CPU is the primary component of a computer responsible for executing instructions."
+    },
+    {
+      "id": "FQ011",
+      "question": "What is the chemical formula for table salt?",
+      "expected_answer": "NaCl",
+      "category": "science",
+      "difficulty": "easy",
+      "context": "Table salt is a mineral composed primarily of sodium chloride."
+    },
+    {
+      "id": "FQ012",
+      "question": "Who was the first person to walk on the Moon?",
+      "expected_answer": "Neil Armstrong",
+      "category": "history",
+      "difficulty": "easy",
+      "context": "The Apollo 11 mission successfully landed humans on the Moon on July 20, 1969."
+    },
+    {
+      "id": "FQ013",
+      "question": "What is the largest ocean on Earth?",
+      "expected_answer": "Pacific Ocean",
+      "category": "geography",
+      "difficulty": "easy",
+      "context": "Earth has five major oceans, varying in size and depth."
+    },
+    {
+      "id": "FQ014",
+      "question": "What year was the first iPhone released?",
+      "expected_answer": "2007",
+      "category": "technology",
+      "difficulty": "medium",
+      "context": "Apple Inc. revolutionized the smartphone industry with its first iPhone announcement."
+    },
+    {
+      "id": "FQ015",
+      "question": "What is the powerhouse of the cell?",
+      "expected_answer": "Mitochondria",
+      "category": "science",
+      "difficulty": "easy",
+      "context": "Cells contain various organelles that perform specific functions for cell survival."
+    },
+    {
+      "id": "FQ016",
+      "question": "What is the longest river in the world?",
+      "expected_answer": "Nile River",
+      "category": "geography",
+      "difficulty": "medium",
+      "context": "Several rivers compete for the title of longest, depending on measurement methodology."
+    },
+    {
+      "id": "FQ017",
+      "question": "Who developed the first successful polio vaccine?",
+      "expected_answer": "Jonas Salk",
+      "category": "history",
+      "difficulty": "medium",
+      "context": "Poliomyelitis was a widespread disease in the mid-20th century before a vaccine was developed."
+    },
+    {
+      "id": "FQ018",
+      "question": "What does HTML stand for?",
+      "expected_answer": "HyperText Markup Language",
+      "category": "technology",
+      "difficulty": "easy",
+      "context": "HTML is the standard markup language for documents designed to be displayed in a web browser."
+    },
+    {
+      "id": "FQ019",
+      "question": "What is the atomic number of carbon?",
+      "expected_answer": "6",
+      "category": "science",
+      "difficulty": "medium",
+      "context": "Carbon is one of the most abundant elements in the universe and is essential for life."
+    },
+    {
+      "id": "FQ020",
+      "question": "In what year did the Berlin Wall fall?",
+      "expected_answer": "1989",
+      "category": "history",
+      "difficulty": "medium",
+      "context": "The Berlin Wall was a guarded concrete barrier that divided Berlin from 1961 to 1989."
+    },
+    {
+      "id": "FQ021",
+      "question": "What is the smallest country in the world by area?",
+      "expected_answer": "Vatican City",
+      "category": "geography",
+      "difficulty": "medium",
+      "context": "Countries vary enormously in size, from vast nations to tiny city-states."
+    },
+    {
+      "id": "FQ022",
+      "question": "What does DNA stand for?",
+      "expected_answer": "Deoxyribonucleic Acid",
+      "category": "science",
+      "difficulty": "medium",
+      "context": "DNA is the molecule that carries the genetic instructions for the development and function of living organisms."
+    },
+    {
+      "id": "FQ023",
+      "question": "Who invented the World Wide Web?",
+      "expected_answer": "Tim Berners-Lee",
+      "category": "technology",
+      "difficulty": "medium",
+      "context": "The World Wide Web was invented at CERN in 1989 as a way to share information among researchers."
+    },
+    {
+      "id": "FQ024",
+      "question": "What is the capital of Japan?",
+      "expected_answer": "Tokyo",
+      "category": "geography",
+      "difficulty": "easy",
+      "context": "Japan is an island country in East Asia."
+    },
+    {
+      "id": "FQ025",
+      "question": "What year did the Titanic sink?",
+      "expected_answer": "1912",
+      "category": "history",
+      "difficulty": "medium",
+      "context": "The RMS Titanic was a British passenger liner that sank in the North Atlantic Ocean."
+    },
+    {
+      "id": "FQ026",
+      "question": "What is the formula for the area of a circle?",
+      "expected_answer": "π × r² (pi times radius squared)",
+      "category": "science",
+      "difficulty": "easy",
+      "context": "The area of a circle depends on its radius."
+    },
+    {
+      "id": "FQ027",
+      "question": "What does API stand for in software development?",
+      "expected_answer": "Application Programming Interface",
+      "category": "technology",
+      "difficulty": "easy",
+      "context": "APIs allow different software applications to communicate with each other."
+    },
+    {
+      "id": "FQ028",
+      "question": "What is the hardest natural substance on Earth?",
+      "expected_answer": "Diamond",
+      "category": "science",
+      "difficulty": "easy",
+      "context": "Natural substances are ranked on the Mohs scale of mineral hardness."
+    },
+    {
+      "id": "FQ029",
+      "question": "Who was the first President of the United States?",
+      "expected_answer": "George Washington",
+      "category": "history",
+      "difficulty": "easy",
+      "context": "The United States declared independence in 1776 and established its government under the Constitution."
+    },
+    {
+      "id": "FQ030",
+      "question": "What is the most spoken language in the world by native speakers?",
+      "expected_answer": "Mandarin Chinese",
+      "category": "general_knowledge",
+      "difficulty": "medium",
+      "context": "Languages are spoken across the globe with varying numbers of native and total speakers."
+    },
+    {
+      "id": "FQ031",
+      "question": "What is the freezing point of water in Fahrenheit?",
+      "expected_answer": "32 degrees Fahrenheit",
+      "category": "science",
+      "difficulty": "easy",
+      "context": "Water freezes and melts at a specific temperature under standard atmospheric pressure."
+    },
+    {
+      "id": "FQ032",
+      "question": "Who co-founded Apple Inc. along with Steve Wozniak?",
+      "expected_answer": "Steve Jobs",
+      "category": "technology",
+      "difficulty": "easy",
+      "context": "Apple Inc. was founded on April 1, 1976 in a garage in Los Altos, California."
+    },
+    {
+      "id": "FQ033",
+      "question": "What is the tallest mountain in the world?",
+      "expected_answer": "Mount Everest",
+      "category": "geography",
+      "difficulty": "easy",
+      "context": "Mountains are measured by their height above sea level."
+    },
+    {
+      "id": "FQ034",
+      "question": "What gas do plants absorb from the atmosphere during photosynthesis?",
+      "expected_answer": "Carbon dioxide (CO2)",
+      "category": "science",
+      "difficulty": "easy",
+      "context": "Photosynthesis is the process by which green plants and certain organisms use sunlight to synthesize nutrients."
+    },
+    {
+      "id": "FQ035",
+      "question": "What does SQL stand for?",
+      "expected_answer": "Structured Query Language",
+      "category": "technology",
+      "difficulty": "easy",
+      "context": "SQL is a domain-specific language used in programming for managing data in relational databases."
+    },
+    {
+      "id": "FQ036",
+      "question": "Who wrote 'Romeo and Juliet'?",
+      "expected_answer": "William Shakespeare",
+      "category": "general_knowledge",
+      "difficulty": "easy",
+      "context": "Romeo and Juliet is one of the most famous tragedies in English literature."
+    },
+    {
+      "id": "FQ037",
+      "question": "What is the largest continent by area?",
+      "expected_answer": "Asia",
+      "category": "geography",
+      "difficulty": "easy",
+      "context": "Earth has seven continents, each varying significantly in area and population."
+    },
+    {
+      "id": "FQ038",
+      "question": "What is the value of Pi to two decimal places?",
+      "expected_answer": "3.14",
+      "category": "science",
+      "difficulty": "easy",
+      "context": "Pi is a mathematical constant representing the ratio of a circle's circumference to its diameter."
+    },
+    {
+      "id": "FQ039",
+      "question": "What year was the Declaration of Independence signed?",
+      "expected_answer": "1776",
+      "category": "history",
+      "difficulty": "medium",
+      "context": "The American colonies declared their independence from British rule in the 18th century."
+    },
+    {
+      "id": "FQ040",
+      "question": "What does GPU stand for?",
+      "expected_answer": "Graphics Processing Unit",
+      "category": "technology",
+      "difficulty": "easy",
+      "context": "GPUs were originally designed to accelerate graphics rendering but are now used extensively in AI and machine learning."
+    },
+    {
+      "id": "FQ041",
+      "question": "What is the largest desert in the world?",
+      "expected_answer": "Antarctic Desert",
+      "category": "geography",
+      "difficulty": "hard",
+      "context": "Deserts are defined by their low precipitation, not by temperature. Both hot and cold deserts exist."
+    },
+    {
+      "id": "FQ042",
+      "question": "What element does 'O' represent on the periodic table?",
+      "expected_answer": "Oxygen",
+      "category": "science",
+      "difficulty": "easy",
+      "context": "The periodic table organizes chemical elements by their atomic number and properties."
+    },
+    {
+      "id": "FQ043",
+      "question": "Who is known as the father of computer science?",
+      "expected_answer": "Alan Turing",
+      "category": "technology",
+      "difficulty": "medium",
+      "context": "Computer science as a discipline emerged in the early to mid-20th century."
+    },
+    {
+      "id": "FQ044",
+      "question": "What is the currency of the United Kingdom?",
+      "expected_answer": "Pound Sterling (GBP)",
+      "category": "general_knowledge",
+      "difficulty": "easy",
+      "context": "Countries around the world use different currencies for their economic transactions."
+    },
+    {
+      "id": "FQ045",
+      "question": "What is Newton's First Law of Motion?",
+      "expected_answer": "An object at rest stays at rest and an object in motion stays in motion unless acted upon by an external force",
+      "category": "science",
+      "difficulty": "medium",
+      "context": "Sir Isaac Newton formulated three fundamental laws of motion that form the basis of classical mechanics."
+    },
+    {
+      "id": "FQ046",
+      "question": "What is the capital of Australia?",
+      "expected_answer": "Canberra",
+      "category": "geography",
+      "difficulty": "medium",
+      "context": "Australia is both a country and a continent located in the Southern Hemisphere."
+    },
+    {
+      "id": "FQ047",
+      "question": "Who discovered penicillin?",
+      "expected_answer": "Alexander Fleming",
+      "category": "history",
+      "difficulty": "medium",
+      "context": "Penicillin was the first true antibiotic discovered, revolutionizing medicine in the 20th century."
+    },
+    {
+      "id": "FQ048",
+      "question": "What does RAM stand for in computing?",
+      "expected_answer": "Random Access Memory",
+      "category": "technology",
+      "difficulty": "easy",
+      "context": "RAM is a form of computer memory that can be read and changed in any order."
+    },
+    {
+      "id": "FQ049",
+      "question": "How many bones are in the adult human body?",
+      "expected_answer": "206",
+      "category": "science",
+      "difficulty": "medium",
+      "context": "The human skeleton provides structure, protects organs, and enables movement."
+    },
+    {
+      "id": "FQ050",
+      "question": "What is the Great Wall of China primarily made of?",
+      "expected_answer": "Stone, brick, tamped earth, and other materials",
+      "category": "history",
+      "difficulty": "hard",
+      "context": "The Great Wall of China is a series of fortifications built across the historical northern borders of China."
+    }
+  ]
+}

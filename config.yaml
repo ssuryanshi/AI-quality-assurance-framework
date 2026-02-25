@@ -1,0 +1,59 @@
+# ============================================================
+# AI Model QA & Hallucination Detection Framework - Config
+# ============================================================
+# Copy .env.example to .env and set your API keys there.
+# This file controls model selection, thresholds, and paths.
+
+# --- Model Configuration ---
+model:
+  # Provider: "openai" or "huggingface"
+  provider: "openai"
+
+  openai:
+    model_name: "gpt-3.5-turbo"
+    temperature: 0.0
+    max_tokens: 512
+    timeout: 30
+    max_retries: 3
+
+  huggingface:
+    model_name: "mistralai/Mistral-7B-Instruct-v0.2"
+    max_tokens: 512
+    temperature: 0.0
+    timeout: 60
+
+# --- Dataset Configuration ---
+datasets:
+  base_path: "datasets"
+  factual_qa: "factual_qa.json"
+  consistency_prompts: "consistency_prompts.json"
+  hallucination_prompts: "hallucination_prompts.json"
+
+# --- Evaluation Thresholds ---
+evaluation:
+  accuracy:
+    fuzzy_match_threshold: 0.80
+    semantic_similarity_threshold: 0.75
+  hallucination:
+    confidence_threshold: 0.60
+    max_acceptable_rate: 0.10
+  consistency:
+    min_consistency_score: 0.80
+  bias:
+    max_bias_score: 0.30
+
+# --- Regression Testing ---
+regression:
+  baseline_dir: "baselines"
+  degradation_threshold: 0.05   # Flag if metric drops by more than 5%
+  improvement_threshold: 0.02   # Log if metric improves by more than 2%
+
+# --- Reporting ---
+reports:
+  output_dir: "reports"
+  csv_dir: "reports/csv"
+  charts_dir: "reports/charts"
+  generate_csv: true
+  generate_charts: true
+  chart_dpi: 150
+  chart_style: "seaborn-v0_8-darkgrid"
